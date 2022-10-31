@@ -1,7 +1,7 @@
 {
-  "name": "phaser3-rollup-typescript",
-  "version": "1.1.0",
-  "description": "Phaser 3 TypeScript Starter",
+  "name": "mini-jam-118",
+  "version": "0.0.1",
+  "description": "Mini Jam 118 - Vampires",
   "main": "dist/index.js",
   "scripts": {
     "dev": "vite",
@@ -10,21 +10,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/geocine/phaser3-rollup-typescript.git"
+    "url": "git+https://github.com/RyanMan56/mini-jam-118.git"
   },
-  "author": "Aivan Monceller",
+  "author": "Ryan Jones",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/geocine/phaser3-rollup-typescript/issues"
+    "url": "https://github.com/RyanMan56/mini-jam-118/issues"
   },
-  "homepage": "https://github.com/geocine/phaser3-rollup-typescript#readme",
+  "homepage": "https://github.com/RyanMan56/mini-jam-118#readme",
   "devDependencies": {
-    "@types/node": "^17.0.31",
     "@rollup/plugin-alias": "^3.1.9",
     "@rollup/plugin-commonjs": "^22.0.0",
     "@rollup/plugin-replace": "^4.0.0",
+    "@types/node": "^17.0.31",
     "phaser": "^3.55.2",
     "typescript": "^4.6.4",
     "vite": "^2.9.13"
+  },
+  "dependencies": {
+    "planck-js": "^0.3.31"
   }
 }
